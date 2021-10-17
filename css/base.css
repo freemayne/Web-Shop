@@ -2,7 +2,7 @@
     /*colors*/
 
     --c-primary:#a597e7;
-    --c-secondary:#6c757d;
+    --c-secondary:#373c41;
     --c-success:#b5d56a;
     --c-info:#84bed6;
     --c-warning:#f0c24b;
@@ -54,7 +54,8 @@
 --shadow-large-light: .25rem .25rem 0 rgba(0, 0, 0, .1);
 
 /* Borders */
---border-xs-white: 0.1rem solid var(--c-white);
+
+--border-xs-white: 0.1em solid var(--c-white);
 --border-xs: .1rem solid var(--c-light);
 --border-sm: .2rem solid var(--c-light);
 --border-lg: .4rem solid var(--c-white);
