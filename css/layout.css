@@ -4,6 +4,7 @@
 .card-width {max-width: 60rem; }
 .width-lg { max-width: 50% ;}
 .min-width-xxl { min-width: 100%;}
+.min-width-md { min-width: 81%}
 
 
 /* Position */
@@ -30,6 +31,8 @@
 .mb-1, .my-1 { margin-bottom: var(--distance-1); }
 .mt-2, .my-2 { margin-top: var(--distance-2); }     /* .5rem */
 .mb-2, .my-2 { margin-bottom: var(--distance-2); }
+.mt-3, .mx-3 { margin-top: var(--distance-3); }
+.mb-3, .mx-3 { margin-bottom: var(--distance-3); }
 .mt-4, .my-4 { margin-top: var(--distance-4); }     /* 1rem */
 .mb-4, .my-4 { margin-bottom: var(--distance-4); }
 .mt-6, .my-6 { margin-top: var(--distance-6); }     /* 1.5rem */
@@ -50,10 +53,18 @@
 .ml-1, .mx-1 { margin-left: var(--distance-1);}
 .mr-2, .mx-2 { margin-right: var(--distance-2);}
 .ml-2, .mx-2 { margin-left: var(--distance-2);}
+.mr-3, .mx-3 { margin-right: var(--distance-3); }
+.ml-3, .mx-3 { margin-left: var(--distance-3); }
 .mr-4, .mx-4 { margin-right: var(--distance-4); }
 .ml-4, .mx-4 { margin-left: var(--distance-4); }
 .mr-6, .mx-6 { margin-right: var(--distance-6); }
 .ml-6, .mx-6 { margin-left: var(--distance-6); }
+.mr-8, .mx-8 { margin-right: var(--distance-8); }
+.ml-8, .mx-8 { margin-left: var(--distance-8); }
+.mr-10, .mx-10 { margin-right: var(--distance-10); }
+.ml-10, .mx-10 { margin-left: var(--distance-10); }
+.mr-12, .mx-12 { margin-right: var(--distance-12); }
+.ml-12, .mx-12 { margin-left: var(--distance-12); }
 
 /* Padding */
 .p-2 { padding: var(--distance-2); }
@@ -71,13 +82,25 @@
 .pl-2, .px-2 { padding-left: var(--distance-2); }
 .pr-4, .px-4 { padding-right: var(--distance-4); }
 .pl-4, .px-4 { padding-left: var(--distance-4); }
+.pr-6, .px-6 { padding-right: var(--distance-6); }
+.pl-6, .px-6 { padding-left: var(--distance-6); }
+.pr-8, .px-8 { padding-right: var(--distance-8); }
+.pl-8, .px-8 { padding-left: var(--distance-8); }
+.pr-10, .px-10 { padding-right: var(--distance-10); }
+.pl-10, .px-10 { padding-left: var(--distance-10); }
 .pr-12, .px-12 { padding-right: var(--distance-12); }
 .pl-12, .px-12 { padding-left: var(--distance-12); }
 
 .pt-2, .py-2 { padding-top: var(--distance-2); }
 .pb-2, .py-2 { padding-bottom: var(--distance-2); }
-.pb-4, .py-4 { padding-top: var(--distance-4); }
+.pt-4, .py-4 { padding-top: var(--distance-4); }
 .pb-4, .py-4 { padding-bottom: var(--distance-4); }
+.pt-6, .py-6 { padding-top: var(--distance-6); }
+.pb-6, .py-6 { padding-bottom: var(--distance-6); }
+.pt-8, .py-8 { padding-top: var(--distance-8); }
+.pb-8, .py-8 { padding-bottom: var(--distance-8); }
+.pt-10, .py-10 { padding-top: var(--distance-10); }
+.pb-10, .py-10 { padding-bottom: var(--distance-10); }
 
 
 /* Colored Bar */
@@ -86,6 +109,7 @@
 
 
 /* Images */
+.logo-width1 {max-width: 8rem;}
 .logo-width { max-width: 13rem; }
 .img-lg-width { max-width: 60%; }
 
@@ -148,6 +172,7 @@ nav div a:not(:first-child){
     .border-radius {border-radius: var(--border-radius-sm);}
     .border-small-white { border: var(--border-xs-white); }
     .border-bottom-xs { border-bottom: var(--border-xs); }
+    .border-right-xs { border-right: var(--border-xs); }
     .border-sm { border: var(--border-sm);}
     .border-lg { border: var(--border-lg);}
     .border-transparent { border: var(--border-transparent);}
