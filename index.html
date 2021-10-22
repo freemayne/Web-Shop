@@ -27,21 +27,22 @@
     <section>
         <header class="">
             <div class="d-flex bg-dark p-3">
+                
                 <div>
                     <button class="text-center text-white border-small-white mx-2 btn-dark px-2 py-4">
                         <i class="fas fa-user pr-1 text-size-xxs"> </i><a href="#"
-                            class="text-decoration-none text-white"><span class="text-size-sm">Jane Doe</span></a>
-                        <i class="fas fa-caret-down"></i></button>
+                            class="text-decoration-none text-white"><span class="text-size-sm d-sm-none">Jane Doe</span></a>
+                        <i class="fas fa-caret-down "></i></button>
                 </div>
                 <div class="d-flex justify-content-between align-items-center mx-auto text-white">
 
-                    <div class="d-flex align-items-center text-white">
+                    <div class="d-flex align-items-center text-white d-sm-none ">
                         <i class="fas fa-phone-alt  mr-2 text-size-md"></i>
-                        <a href="#" class="text-decoration-none text-white "><span>555 555 5555</span></a>
+                        <a href="#" class="text-decoration-none text-white  "><span>555 555 5555</span></a>
 
                     </div>
 
-                    <div class="d-flex align-items-center text white">
+                    <div class="d-flex align-items-center text white d-sm-none">
                         <i class="far fa-envelope mr-2 ml-4"></i>
                         <a href="#" class="text-decoration-none text-white "><span>info@mystore.com</span></a>
 
@@ -57,58 +58,347 @@
                     <a href="#"><i class="fab fa-pinterest-p text-white text-size-xxl mr-4"></i></a>
 
                 </div>
+                </div>
     </section>
     </header>
     <!-- Search function-->
-    <section class="mb-15 pb-6 border-transparent ">
-        <div class="d-flex align-items-center mt-10 pb-10 border-color-secondary border-bottom-xs">
-            <img src="/images/logo/logo.png" class="logo-width1 pt-3 mr-2 ml-4" alt="logo">
+    <section class="">
+        <div class="d-flex align-items-center grow-sm mt-10 pb-10  border-bottom-xs">
+            <img src="/images/logo/logo.png" class="logo-width1 mb-sm-10 pt-3 mr-2 ml-4" alt="logo">
 
-            <button class="text-center bg-dark-transparent border-color-dark border-transparent p-3"><i
-                    class="fas fa-search text-dark "></i></button>
-            <input type="text" placeholder="Search products" class="form-control lh-md p-2 min-width-md">
+            <div class="d-flex flex-grow flex-row heading-xxs-width order-1">
 
-            <div class="d-flex justify-content-between px-6">
-                <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative mr-2 border-right-xs border-color-secondary ">
-                    <div
-                        class="d-flex align-items-center justify-content-between border-radius px-2">
-                        <div class="px-4 ">
-                        <i class="fas fa-heart text-black text-size-xl "></i>
-                        <span class="text-white icon-badge text-size-xxs position-absolute circle bg-success-dark border-small-white mt-2 mr-4 ">3</span>
-                    
-                    </div>
+                <button class="text-center ml-sm-4 bg-dark-transparent border-color-dark border-transparent p-3"><i
+                    class="fas fa-search text-dark  "></i></button>
+                    <input type="text" placeholder="Search products" class="d-flex flex-grow mr-sm-4 lh-md p-2">
                 </div>
+
+            <div class="d-flex justify-content-between  px-6">
+                <a href="#"
+                    class="d-flex flex-column align-items-center d-sm-block d-none text-decoration-none text-dark position-relative mr-2 border-right-xs">
+                    <div class="d-flex align-items-center justify-content-between px-2">
+                        <div class="px-4 ">
+                            <i class="fa fa-bars text-black text-size-xl "></i>
+                            
+
+                        </div>
+                    </div>
+                    <span class="text-uppercase text-size-xs d-sm-block d-sm-block">Menu</span>
+                </a>
+         
+                <a href="#"
+                    class="d-flex flex-column align-items-center text-decoration-none text-dark position-relative mr-2 border-right-xs">
+                    <div class="d-flex align-items-center justify-content-betweenpx-2">
+                        <div class="px-4 ">
+                            <i class="fas fa-heart text-black text-size-xl "></i>
+                            <span
+                                class="text-white icon-badge text-size-xxs position-absolute circle bg-success-dark border-small-white mt-2 mr-4 ">3</span>
+
+                        </div>
+                    </div>
                     <span class="text-uppercase text-size-xs">favs</span>
                 </a>
-                <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative mr-4 border-right-xs border-color-secondary">
-                    <div
-                        class="d-flex align-items-center justify-content-between border-radius pl-6 pr-10">
+                <a href="#"
+                    class="d-flex flex-column align-items-center text-decoration-none text-dark position-relative mr-4 border-right-xs ">
+                    <div class="d-flex align-items-center justify-content-betweenpl-6 pr-10">
                         <div class="mr-4">
-                        <i class="fa fa-shopping-cart text-black text-size-xl"></i>
-                        <span class="text-white icon-badge text-size-xxs position-absolute circle bg-success-dark border-small-white mt-2 mr-10">2</span>
+                            <i class="fa fa-shopping-cart text-black text-size-xl"></i>
+                            <span
+                                class="text-white icon-badge text-size-xxs position-absolute circle bg-success-dark border-small-white mt-2 mr-10">2</span>
                         </div>
                     </div>
                     <span class="text-uppercase text-size-xs mr-4">$1436.0</span>
                 </a>
-                <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative ml-2 ">
-                    <div
-                        class="d-flex align-items-center justify-content-between border-radius px-2 ">
+                <a href="#"
+                    class="d-flex flex-column align-items-center text-decoration-none text-dark position-relative ml-2 ">
+                    <div class="d-flex align-items-center justify-content-between px-2 ">
                         <i class="fas fa-file-invoice-dollar text-black text-size-xl"></i>
-                        <span class="text-white icon-badge text-size-xxs position-absolute circle bg-success-dark border-small-white mt-2 ">0</span>
+                        <span
+                            class="text-white icon-badge text-size-xxs position-absolute circle bg-success-dark border-small-white mt-2 ">0</span>
                     </div>
                     <span class="text-uppercase text-size-xs">$0.0</span>
                 </a>
 
-               
-                </div>
+
+            </div>
 
         </div>
-        </section>
+    </section>
+
+
+    <!-- Navigation -->
+
+    <section class="d-flex wrap-sm grow-sm">
+    <nav class="">
+        <aside class="d-flex pr-4 pt-2 pl-2 grow-sm align-sm-center" role="navigation">
+            <ul class=" mt-4 ml-2 hide-bullet-list box  ">
+                <li class="border-bottom-xs px-4 py-4">
+                    <a href="#" class="fas fa-hdd text-heaven pr-2 text-decoration-none"></a><a href="#"
+                        class="text-dark text-decoration-none"> Computers & Accessories</a>
+                </li>
+                <li class="border-bottom-xs px-4 py-4">
+                    <a href="#" class="fas fa-tv text-heaven pr-2 text-decoration-none"></a><a href="#"
+                        class="text-dark text-decoration-none"> TV, Video & Audio</a>
+                </li>
+                <li class="border-bottom-xs px-4 py-4">
+                    <a href="#" class="fas fa-mobile-alt text-heaven text-decoration-none pr-2"></a><a href="#"
+                        class="text-dark text-decoration-none"> Smartphones & Tablets</a>
+                </li>
+                <li class="border-bottom-xs px-4 py-4">
+                    <a href="#" class="fas fa-camera-retro text-decoration-none text-heaven pr-2"></a>
+                    <a href="#" class="text-dark text-decoration-none"> Photo Cameras</a>
+                </li>
+                <li class="border-bottom-xs px-4 py-4">
+                    <a href="#" class="fas fa-video text-heaven text-decoration-none pr-2"> </a><a href="#"
+                        class="text-dark text-decoration-none"> Video Cameras</a>
+                </li>
+                <li class="border-bottom-xs px-4 py-4">
+                    <a href="#" class="fas fa-headphones text-heaven text-decoration-none pr-2"></a><a href="#"
+                        class="text-dark text-decoration-none"> Headphones</a>
+                </li>
+                <li class="border-bottom-xs px-4 py-4">
+                    <a href="#" class="fas fa-clock text-heaven text-decoration-none pr-2"></a><a href="#"
+                        class="text-dark text-decoration-none"> Wearable Electronics</a>
+                </li>
+                <li class="border-bottom-xs px-4 py-4">
+                    <a href="#" class="fas fa-images text-heaven text-decoration-none pr-2"></a><a href="#"
+                        class="text-dark text-decoration-none"> Printers & Ink</a>
+                </li>
+                <li class="border-bottom-xs px-4 py-4">
+                    <a href="#" class="fas fa-gamepad text-heaven text-decoration-none pr-2"></a><a href="#"
+                        class="text-dark text-decoration-none"> Video Games</a>
+                </li>
+                <li class="border-bottom-xs px-4 py-4">
+                    <a href="#" class="fas fa-volume-down text-heaven text-decoration-none pr-2"></a><a href="#"
+                        class="text-dark text-decoration-none"> Speakers & Home Music</a>
+                </li>
+                <li class=" px-4 py-4">
+                    <a href="#" class="fas fa-server text-heaven text-decoration-none pr-2"></a><a href="#"
+                        class="text-dark text-decoration-none"> HDD / SSD Data Storage</a>
+                </li>
+            </ul>
+        </aside>
+    </nav>
 
 
    
 
+    <!-- Articles-->
+    <section class=" d-flex  ">
+        <div class="d-flex  max-width mx-auto  flex-wrap">
+            <!-- article -->
+            <div class="d-flex text-size-xs flex-xs-column position-relative overflow-hidden m-6 card-width border-sm">
+                <img src="/images/products/SurfaceBook.jpg" class="img-lg-width height-lg img-xs-width " alt="computer">
+                <div class="d-flex flex-column p-6">
+                    <div class="d-flex justify-content-between">
 
+                        <h2 class="mb-6"> Surface book 14 in.</h2>
+                        <a href="#"><i class="far fa-heart text-danger text-size-lg"></i></a>
+                    </div>
+                    <a href="#" class="text-heaven">
+                    <h3 class="mr-4 mb-4 ">Computers & Accessories</h3>
+                    </a>
+                    <div class="mb-4">$1251.5</div>
+                    <div class="mb-4">Ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores ipsum
+                    </div>
+                    <div class="">
+
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <div class="text-size-lg">
+
+                            <a href="#" class="text-cozy"><i class="fas fa-cart-plus text-size-"></i></a>
+                        </div>
+
+                        <div class="text-size-lg">
+
+                            <a href="#" class=" text-decoration-none text-dark"><span class="">3.5</span><i
+                                    class="far fa-star  text-warning "></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div
+                    class="d-flex flex-column justify-content-center align-items-center bg-danger position-absolute px-4 border-radius text-bold text-size-xs lh-md">
+                    <div>-10%</div>
+                    
+                </div>
+
+            </div>
+             <!-- article -->
+             <div class="d-flex text-size-xs flex-xs-column position-relative overflow-hidden m-6 card-width border-sm">
+                <img src="/images/products/SurfaceBook.jpg" class="img-lg-width height-lg img-xs-width" alt="computer">
+                <div class="d-flex flex-column p-6">
+                    <div class="d-flex justify-content-between">
+
+                        <h2 class="mb-6"> Surface book 2 14 in.</h2>
+                        <a href="#"><i class="far fa-heart text-danger text-size-lg"></i></a>
+                    </div>
+                    <a href="#" class="text-heaven">
+                    <h3 class="mr-4 mb-4 ">Computers & Accessories</h3>
+                    </a>
+                    <div class="mb-4">$1451.0</div>
+                    <div class="mb-4 ">Ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores 
+                    </div>
+                    <div class="">
+
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <div class="text-size-lg">
+
+                            <a href="#" class="text-cozy"><i class="fas fa-cart-plus text-size-"></i></a>
+                        </div>
+
+                        <div class="text-size-lg">
+
+
+                            <a href="#" class=" text-decoration-none text-dark"><span class="">0</span><i
+                                    class="far fa-star  text-warning "></i></a>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                <div
+                    class="d-flex flex-column justify-content-center text-uppercase align-items-center bg-warning position-absolute px-4 border-radius text-bold text-size-xs lh-md">
+                    <div>new</div>
+                    
+                </div>
+                
+
+            </div>
+             <!-- Article -->
+             <div class="d-flex  flex-xs-column wrap-sm grow-sm position-relative overflow-hidden m-6 card-width border-sm">
+                 <img src="/images/products/MSMouse.jpg" class="img-lg-width height-lg img-xs-width" alt="computer">
+                 <div class="d-flex flex-column p-6">
+                 <div class="d-flex justify-content-between">
+
+                        <h2 class="mb-6 text-size-lg">PS 5 Controllers</h2>
+                        <a href="#"><i class="far fa-heart text-danger text-size-lg"></i></a>
+                    </div>
+
+                    <a href="#" class="text-heaven">
+                    <h3 class="mr-4 mb-4 ">Computers & Accessories</h3>
+                    </a>
+                    <div class="mb-4">$151.5</div>
+                    <div class="mb-4 ">Ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores 
+                    </div>
+                    <div class="">
+
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <div class="text-size-lg">
+
+                            <a href="#" class="text-cozy"><i class="fas fa-cart-plus text-size-"></i></a>
+                        </div>
+
+                        <div class="text-size-lg">
+
+
+                            <a href="#" class=" text-decoration-none text-dark"><span class="">4.8</span><i
+                                    class="far fa-star  text-warning "></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div
+                    class="d-flex flex-column justify-content-center align-items-center bg-warning position-absolute px-6 border-radius text-bold text-size-xs lh-md">
+                    <div>-14%</div>
+                    
+                </div>
+
+            </div>
+             <!-- article -->
+             <div class="d-flex text-size-xs flex-xs-column position-relative overflow-hidden m-6 card-width border-sm">
+                <img src="/images/products/07.jpg" class="img-lg-width height-lg img-xs-width " alt="computer">
+                <div class="d-flex flex-column p-4">
+                    <div class="d-flex justify-content-between">
+
+                        <h2 class="mb-6"> iWatch 2 </h2>
+                        <a href="#"><i class="far fa-heart text-danger text-size-lg"></i></a>
+                    </div>
+                   <a href="#" class="text-heaven">
+
+                       <h3 class="mr-4 mb-4 ">Wearable Electronics</h3>
+                   </a>
+                    <div class="mb-4">$351.5</div>
+                    <div class="mb-4 ">Ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum dolor sit amet.
+                    </div>
+                    <div class="">
+
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <div class="text-size-lg">
+
+                            <a href="#" class="text-cozy"><i class="fas fa-cart-plus "></i></a>
+                        </div>
+
+                        <div class="text-size-lg">
+
+                            <a href="#" class=" text-decoration-none text-dark"><span class="">4.0</span><i
+                                    class="far fa-star  text-warning "></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div
+                    class="d-flex flex-column justify-content-center align-items-center bg-danger position-absolute px-4 border-radius text-bold text-size-xs lh-md">
+                    <div>-7%</div>
+                    
+                </div>
+
+            </div>
+             <!-- article -->
+             <div class="d-flex text-size-xs flex-xs-column position-relative overflow-hidden m-6 card-width border-sm">
+                <img src="/images/products/iMac.jpg" class="img-lg-width height-lg img-xs-width" alt="computer">
+                <div class="d-flex flex-column p-6">
+                    <div class="d-flex justify-content-between">
+
+                        <h2 class="mb-6"> iMac 28" M1</h2>
+                        <a href="#"><i class="far fa-heart text-danger text-size-lg"></i></a>
+                    </div>
+                    <a href="#" class="text-heaven">
+
+                        <h3 class="mr-4 mb-4 ">Computers & Accessories</h3>
+                    </a>
+                    <div class="mb-4">$2351.5</div>
+                    <div class="mb-4 ">Ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+                    </div>
+                    <div class="">
+
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <div class="text-size-lg">
+
+                            <a href="#" class="text-cozy"><i class="fas fa-cart-plus text-size-"></i></a>
+                        </div>
+
+                        <div class="text-size-lg">
+
+                            <a href="#" class=" text-decoration-none text-dark"><span class="">4.5</span><i
+                                    class="far fa-star  text-warning "></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div
+                    class="d-flex flex-column justify-content-center align-items-center bg-success position-absolute px-4 border-radius text-bold text-size-xs lh-md">
+                    <div>Editors choice</div>
+                    
+                </div>
+               
+
+            </div>
+
+        </div>
+    </nav>
+    </section>
+</section>
 
 </body>
 
