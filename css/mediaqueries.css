@@ -1,30 +1,59 @@
-@media only screen and (max-width: 68.75em) /* 1100px / 15px = 68.75em */ {
-    htlm { font-size: 50%; }
-} 
 
-@media screen and (max-width: 56.25em) { /* 900px / 16px = 56.25em */
-    .f-width { max-width: 50% !important; }
-}
 
- @media screen and (max-width: 37.5em) { /* 600 / 16px = 37.5em */
-    .d-sm-none { display: none !important; } /* om upplösningen är mindre än 600 så gömmer display: none de innehållet som kallar på d-sm-none */
-    .d-sm-block {display: block!important; } /* blockerar visning av innehållet som kallar på d-sm-block tills att upplösningen är mindre än 600 */
-    nav div a:not(:first-child){ margin-left: 2rem; }
-    .f-width { max-width: 100% !important; }
-    .mb-sm-12 { margin-bottom: var(--distance-12); }
-    .flex-sm-column { flex-direction: column; }
-    footer > div > div { max-width: 100% !important}
-    .mt-sm-12 { margin-top: var(--distance-12); }
-    .img-sm-width { width: 150% !important; }
- }
 
- @media screen and (max-width: 31.25em) { /* 500 / 16px = 31.25em */
-    .flex-xs-column { flex-direction: column; }
-    .img-xs-width { max-width: 150% !important; }
+
+@media screen and (max-width: 59.375em) {           
+    .wrap-sm { flex-wrap: wrap !important; }           
+    .grow-sm { flex-grow: 1; display: flex; flex-direction: column; }
+    .width-sm { max-width: 80%; }
+    .max-content {min-width:max-content ;}
+
+
+}               
     
+@media screen and (max-width: 59.375em) {    /* 800px /16 = 50 */         
+    .order-1 {order: 1; flex:1 0 100%; display: flex; padding-top: 1rem;} 
+    .mb-sm-10 {margin-bottom: var(--distance-10);}     
+    .d-sm-none { display: none !important; } /* om upplösningen är mindre än mediascreen så gömmer display: none de innehållet som kallar på d-sm-none */
+    .d-sm-block {display: block !important; } /* blockerar visning av innehållet som kallar på d-sm-block tills att upplösningen är mindre än 600 */
+    .heading-xxs-width { width: 100% !important; }
+    .mr-sm-4 {margin-right: var(--distance-4) ;}
+    .ml-sm-4 {margin-left: var(--distance-4);}
+    .align-sm-center {align-items: center;}
+   
+    }               
+@media only screen and (max-width: 76.25em)  {
+        html { font-size: 80%; }
+    } 
     
-}
+    @media screen and (max-width: 56.25em) { 
+        .f-width { max-width: 50% !important; }
+    }
+    
+     @media screen and (max-width: 59.375em) { 
 
-@media screen and (max-width: 25em) { /* 400 / 16px = 25em */
-.heading-xxs-width { width: 100% !important; } /*om man öppnar sidan med en upplösning på  400 eller mindre så kommer containern i slidern att sträcka sig längs med bildens kanter */
-}
+        .f-width { max-width: 100% !important; }
+        .mb-sm-12 { margin-bottom: var(--distance-12); }
+        .flex-sm-column { flex-direction: column; }
+        .order-1 {order: 1; flex:1 0 100%; display: flex; padding-top: 1rem;} 
+
+        .mt-sm-12 { margin-top: var(--distance-12); }
+        .img-sm-width { width: 50% !important; }
+        .flex-lg-grow {flex-grow: 1;}
+     }
+    
+     @media screen and (max-width: 31.25em) { /* 500 / 16px = 31.25em */
+        .flex-xs-column { flex-direction: column; }
+        .img-xs-width { max-width: 150% !important; }
+        
+        
+    }
+    
+    @media screen and (max-width: 25em) { /* 400 / 16px = 25em */
+    .heading-xxs-width { width: 100% !important; } /*om man öppnar sidan med en upplösning på  400 eller mindre så kommer containern i slidern att sträcka sig längs med bildens kanter */
+    }
+    
+    @media screen and (max-width: 22em){
+        html { font-size: 60%}
+        .card-width {max-width: max-content; }
+    }
