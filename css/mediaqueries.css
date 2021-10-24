@@ -54,6 +54,26 @@
     }
     
     @media screen and (max-width: 22em){
-        html { font-size: 60%}
+        html { font-size: 60%;}
         .card-width {max-width: max-content; }
     }
+
+    @media screen and (max-width: 106,25em){
+
+        .align-cards-center {align-items: center;}
+    }
+    @media screen and (max-width: 59.375em) {
+        .position-relative-logo{margin-right: 450px; margin-top: 10px;  position: relative ;}
+
+
+        .position-absolute-logo{position: absolute ;}}
+
+
+
+
+        @media screen and (max-width: 35.625em) {
+          .position-relative-logo2 { margin-left: 450px; margin-bottom: 45px; position: relative ;
+          }
+
+
+          .position-absolute-logo2 {margin-top: 50px; position: absolute ;}}
