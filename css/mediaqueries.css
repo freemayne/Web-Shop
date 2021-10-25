@@ -7,6 +7,7 @@
     .grow-sm { flex-grow: 1; display: flex; flex-direction: column; }
     .width-sm { max-width: 80%; }
     .max-content {min-width:max-content ;}
+    .card-width {max-width: fit-content;}
 
 
 }               
@@ -23,14 +24,16 @@
    
     }               
 @media only screen and (max-width: 76.25em)  {
-        html { font-size: 80%; }
+        html { font-size: 80%; } /* zoomar in hela innehållet */
     } 
     
     @media screen and (max-width: 56.25em) { 
         .f-width { max-width: 50% !important; }
     }
     
-     @media screen and (max-width: 59.375em) { 
+     @media screen and (max-width: 59.375em) {  /* 900 /16 = 59.375em */
+
+        .flex-lg-grow {flex-grow: 1;}
 
         .f-width { max-width: 100% !important; }
         .mb-sm-12 { margin-bottom: var(--distance-12); }
@@ -39,7 +42,7 @@
 
         .mt-sm-12 { margin-top: var(--distance-12); }
         .img-sm-width { width: 50% !important; }
-        .flex-lg-grow {flex-grow: 1;}
+        
      }
     
      @media screen and (max-width: 31.25em) { /* 500 / 16px = 31.25em */
