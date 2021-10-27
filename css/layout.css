@@ -183,7 +183,7 @@ nav div a:not(:first-child){
 
 
     /* Box Sizing */
-    .box { min-width: 24rem; max-width: 70rem; border: var(--border-xs);}
+    .box { min-width: 24rem; max-width: 100rem; border: var(--border-xs);}
     .box-products { width: 600px; border: var(--border-xs);}
 
  
