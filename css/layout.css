@@ -97,6 +97,8 @@
 .pl-10, .px-10 { padding-left: var(--distance-10); }
 .pr-12, .px-12 { padding-right: var(--distance-12); }
 .pl-12, .px-12 { padding-left: var(--distance-12); }
+.pr-15, .px-15 { padding-right: var(--distance-15); }
+.pl-15, .px-15 { padding-left: var(--distance-15); }
 
 .pt-2, .py-2 { padding-top: var(--distance-2); }
 .pb-2, .py-2 { padding-bottom: var(--distance-2); }
@@ -127,6 +129,7 @@ nav:not(:first-child){
 .text-bold { font-weight: bold;}
 .hide-bullet-list {list-style: none;}
 .text-right {text-align: right;}
+
 
 
 .text-size-xxs { font-size: var(--d-xxs); }
@@ -236,7 +239,18 @@ nav div a:not(:first-child){
         color:#fff;
       }
       
-    
+      .allButFooter {
+        min-height: calc(100vh - 95px); 
+    }
+    .all-but-footer {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+  }
+  
+      main { 
+      flex: 1;
+  }
 
    
   

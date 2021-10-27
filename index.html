@@ -16,12 +16,17 @@
     <link rel="stylesheet" href="css/flex.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/mediaqueries.css">
+   
+   
 
 
 
 </head>
 
 <body>
+    <div class="allButFooter">
+
+   
     <!-- header -->
 
     <section>
@@ -142,7 +147,7 @@
 
     <!-- Navigation -->
 
-    <section class="d-flex wrap-sm grow-sm">
+    <section class="d-flex wrap-sm grow-sm mb-15">
     <nav class="">
         <aside class="d-flex pr-4 pt-2 pl-2 grow-sm max-content" role="navigation">
             <ul class=" mt-4 ml-2 hide-bullet-list box max-content">
@@ -198,7 +203,7 @@
    
 
     <!-- Articles-->
-    <section class="d-flex">
+    <section class="d-flex mb-1">
         <div class="d-flex max-width mx-auto flex-wrap">
             <!-- article -->
             <div class="d-flex text-size-xs flex-xs-column position-relative overflow-hidden m-6 card-width border-sm">
@@ -284,7 +289,7 @@
 
             </div>
              <!-- Article -->
-             <div class="d-flex  flex-xs-column align-cards-center position-relative overflow-hidden m-6 card-width border-sm">
+             <div class="d-flex text-size-xs flex-xs-column align-cards-center position-relative overflow-hidden m-6 card-width border-sm">
                  <img src="/images/products/MSMouse.jpg" class="img-lg-width height-lg img-xs-width" alt="computer">
                  <div class="d-flex flex-column p-6">
                  <div class="d-flex justify-content-between">
@@ -413,6 +418,55 @@
     </nav>
     </section>
 </section>
+</div>
+
+    <!-- Footer -->
+    <footer class="d-flex p-15 justify-content-center align-items-center bg-dark text-white" id="footer" >
+        <div class="d-flex max-width flex-sm-column ">
+            <!-- Address -->
+            <div class="d-flex flex-column width-lg mr-6 " >
+                <img src="/images/logo/logo.png" class="logo-width mb-6" alt="Logo">
+                <p class="mb-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti perspiciatis ipsam quam.</p>
+                <p class="mb-6">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="d-flex align-items-center mb-2">
+                    <i class="fas fa-map-marker-alt text-success mr-4"></i>
+                    <span>My street, 12234, MyTown, MyCountry</span>
+
+                </div>
+                <div class="d-flex align-items-center mb-2 ">
+                    <i class="fas fa-at text-warning mr-4"></i>
+                    <span>info@mystore.com</span>
+
+                </div>
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-phone-alt text-cozy mr-4"></i>
+                    <span>555 555 5555</span>
+
+                </div>
+
+            </div>
+            <!-- Form -->
+            <form class="d-flex flex-column flex-grow mt-sm-12" >
+                <h2 class="text-light mb-2">Customer Service</h2>
+                <div class="d-flex position-relative mb-2">
+                    <i class="fa fa-user text-success position-absolute icon-form-control"></i>
+                    <input type="text" placeholder="First name" class="form-control border-color-success border-sm border-radius lh-md p-4 min-width-xxl">
+                </div>
+                <div class="d-flex position-relative mb-2">
+                    <i class="fas fa-at text-warning position-absolute icon-form-control"></i>
+                    <input type="text" placeholder="Email" class="form-control border-color-warning border-sm border-radius lh-md p-4 min-width-xxl">
+                </div>
+                <div class="d-flex position-relative mb-2">
+                    <i class="fa fa-comments text-info position-absolute icon-form-control"></i>
+                    <textarea placeholder="Write your message here..." class="form-control border-color-info border-sm border-radius lh-md p-4 min-width-xxl"></textarea>
+                </div>
+                <button class="btn-dark text-size-md text-uppercase text-center text-white  border-small-white p-6">
+                    Send Message</button>
+
+            </form>
+
+        </div>  
+    </footer>
 
 </body>
 

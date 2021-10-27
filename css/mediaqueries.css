@@ -2,7 +2,7 @@
 
 
 
-@media screen and (max-width: 59.375em) {           
+@media screen and (max-width: 59.375em) {           /* 950px /16 = 50 */    
     .wrap-sm { flex-wrap: wrap !important; }           
     .grow-sm { flex-grow: 1; display: flex; flex-direction: column; }
     .width-sm { max-width: 80%; }
@@ -12,26 +12,26 @@
 
 }               
     
-@media screen and (max-width: 59.375em) {    /* 800px /16 = 50 */         
+@media screen and (max-width: 59.375em) {    /* 950px /16 = 50 */         
     .order-1 {order: 1; flex:1 0 100%; display: flex; padding-top: 1rem;} 
     .mb-sm-10 {margin-bottom: var(--distance-10);}     
     .d-sm-none { display: none !important; } /* om upplösningen är mindre än mediascreen så gömmer display: none de innehållet som kallar på d-sm-none */
     .d-sm-block {display: block !important; } /* blockerar visning av innehållet som kallar på d-sm-block tills att upplösningen är mindre än 600 */
-    .heading-xxs-width { width: 100% !important; }
+    .heading-xxs-width { width: 100% !important; } /* breddar ut width 100% */    
     .mr-sm-4 {margin-right: var(--distance-4) ;}
     .ml-sm-4 {margin-left: var(--distance-4);}
     .align-sm-center {align-items: center;}
    
     }               
-@media only screen and (max-width: 76.25em)  {
+@media only screen and (max-width: 76.25em)  { /* 1220 / 16 = 76.25em
         html { font-size: 80%; } /* zoomar in hela innehållet */
     } 
     
-    @media screen and (max-width: 56.25em) { 
+    @media screen and (max-width: 56.25em) {  /* 900px /16 = 56.25 */    
         .f-width { max-width: 50% !important; }
     }
     
-     @media screen and (max-width: 59.375em) {  /* 900 /16 = 59.375em */
+     @media screen and (max-width: 59.375em) {  /* 950 /16 = 59.375em */
 
         .flex-lg-grow {flex-grow: 1;}
 
@@ -56,12 +56,12 @@
     .heading-xxs-width { width: 100% !important; } /*om man öppnar sidan med en upplösning på  400 eller mindre så kommer containern i slidern att sträcka sig längs med bildens kanter */
     }
     
-    @media screen and (max-width: 22em){
+    @media screen and (max-width: 22em){ 
         html { font-size: 60%;}
         .card-width {max-width: max-content; }
     }
 
-    @media screen and (max-width: 106,25em){
+    @media screen and (max-width: 106.25em){ /* 950px /16 = 106.25 */    
 
         .align-cards-center {align-items: center;}
     }
